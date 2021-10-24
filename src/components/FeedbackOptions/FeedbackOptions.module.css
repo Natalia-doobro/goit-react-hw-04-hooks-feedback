@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  font-size: 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 300px;
+
+  background-color: mediumpurple;
+}
+.button:not(:last-child) {
+  margin-bottom: 30px;
+}
+.button:hover,
+.button:focus {
+  transform: scale(1.15);
+  background-color: var(--dr-color);
+  color: var(--dr-text-color);
+  box-shadow: 10px 10px 8px 2px var(--shadow-color);
+}

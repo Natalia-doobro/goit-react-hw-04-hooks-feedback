@@ -1,0 +1,9 @@
+.container {
+  width: 500px;
+  border-radius: 20px;
+  padding: 90px 0px;
+}
+.message {
+  font-size: 60px;
+  color: var(--dr-color);
+}
